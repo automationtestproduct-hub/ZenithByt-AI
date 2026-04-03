@@ -1,44 +1,44 @@
 const ZenithPortfolio = () => {
-    return (
-          <div className="min-h-screen bg-[#050508] text-white p-8">
-                <nav className="flex justify-between items-center mb-20">
-                        <h1 className="text-2xl font-bold text-[#ff9f1c]">ZenithByt AI</h1>h1>
-                        <div className="flex gap-4">
-                                  <a href="#fleet" className="text-white/60 hover:text-white">Fleet</a>a>
-                                  <button className="px-4 py-2 bg-white/5 rounded-lg border border-white/10 hover:bg-white/10">Dashboard</button>button>
-                        </div>div>
-                </nav>nav>
-                
-                <header className="text-center py-20">
-                        <h2 className="text-6xl font-bold mb-6">Intelligence. Autonomous.</h2>h2>
-                        <p className="text-white/40 max-w-2xl mx-auto mb-10">ZenithByt AI is a 24/7 autonomous corporate entity orchestrating growth and infrastructure at scale.</p>p>
-                        <button className="px-8 py-4 bg-gradient-to-r from-[#ff9f1c] to-[#ff6348] rounded-full font-bold">Launch Fleet</button>button>
-                </header>header>
-          
-                <section id="fleet" className="py-20">
-                        <h3 className="text-3xl font-bold mb-10">The Executive Fleet</h3>h3>
-                        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                                  <div className="p-6 bg-white/5 border border-white/10 rounded-xl">
-                                              <div className="text-[#ff9f1c] font-bold mb-2">CEO</div>div>
-                                              <p className="text-white/40 text-sm">Strategic Planner orchestrating the ecosystem.</p>p>
-                                  </div>div>
-                                  <div className="p-6 bg-white/5 border border-white/10 rounded-xl">
-                                              <div className="text-[#ff9f1c] font-bold mb-2">CFO</div>div>
-                                              <p className="text-white/40 text-sm">Financial Auditor managing real-time revenue.</p>p>
-                                  </div>div>
-                                  <div className="p-6 bg-white/5 border border-white/10 rounded-xl">
-                                              <div className="text-[#ff9f1c] font-bold mb-2">CHRO</div>div>
-                                              <p className="text-white/40 text-sm">Logic Trainer refining agent behavior.</p>p>
-                                  </div>div>
-                        </div>div>
-                </section>section>
-          
-                <footer className="mt-40 pt-10 border-t border-white/5 text-center text-white/20 text-xs tracking-widest uppercase">
-                        (c) 2026 ZenithByt AI Infrastructure. All Agents Autonomous.
-                </footer>footer>
-          </div>div>
-        );
-};
-
-export default ZenithPortfolio;
-</div>
+      return (
+              <div className="min-h-screen bg-[#050508] text-white selection:bg-[#ff9f1c]/30 overflow-x-hidden">
+                    <div className="mesh-bg">
+                            <div className="mesh-blob blob-saffron"></div>div>
+                            <div className="mesh-blob blob-turmeric"></div>div>
+                            <div className="mesh-blob blob-teal"></div>div>
+                    </div>div>
+              
+                    <nav className="fixed top-0 w-full z-50 px-8 py-6 flex justify-between items-center backdrop-blur-md border-b border-white/5">
+                            <div className="flex items-center gap-3">
+                                      <div className="w-10 h-10 bg-gradient-to-br from-[#ff9f1c] to-[#ff6348] rounded-xl flex items-center justify-center shadow-lg shadow-orange-500/20">
+                                                  <span className="font-bold text-xl text-white">Z</span>span>
+                                      </div>div>
+                                      <span className="text-xl font-bold tracking-tight gradient-text">ZenithByt AI</span>span>
+                            </div>div>
+                            <div className="hidden md:flex items-center gap-10 text-sm font-medium text-white/60">
+                                      <a href="#vision" className="hover:text-[#ff9f1c] transition-colors">Vision</a>a>
+                                      <a href="#fleet" className="hover:text-[#ff9f1c] transition-colors">The Fleet</a>a>
+                                      <a href="#capital" className="hover:text-[#ff9f1c] transition-colors">Capital Engine</a>a>
+                            </div>div>
+                            <button className="px-6 py-2.5 bg-white/5 border border-white/10 rounded-full text-sm font-semibold hover:bg-white/10 transition-all">
+                                                    Connect Dashboard
+                            </button>button>
+                    </nav>nav>
+              
+                    <section className="relative pt-48 pb-20 px-8 flex flex-col items-center text-center">
+                            <div className="glass-card px-4 py-2 mb-8 text-[10px] uppercase tracking-[0.2em] text-[#ff9f1c] border-[#ff9f1c]/20">
+                                      Autonomous Operating System v4.0
+                            </div>div>
+                            <h1 className="text-6xl md:text-8xl font-black mb-8 tracking-tighter leading-[0.9] gradient-text">
+                                      Intelligence.<br />Autonomous.
+                            </h1>h1>
+                            <p className="max-w-2xl text-lg text-white/50 leading-relaxed mb-12">
+                                      ZenithByt AI is a 24/7 autonomous corporate entity. We deploy intelligent agents to orchestrate revenue, growth, and infrastructure at scale.
+                            </p>p>
+                            <div className="flex gap-4">
+                                      <button className="btn-primary">View Live Fleet</button>button>
+                                      <button className="px-8 py-4 glass-card font-bold hover:bg-white/5 transition-all">Investor Deck</button>button>
+                            </div>div>
+                    </section>section>
+              
+                    <section id="fleet" className="py-32 px-8 max-w-7xl mx-auto">
+                            <div className="mb-2</div>
